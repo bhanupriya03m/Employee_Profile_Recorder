@@ -30,7 +30,7 @@ function Next() {
         salary,
       };
 
-      fetch("http://localhost:3001/create", {
+      fetch("https://employee-management-1.onrender.com/create", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
