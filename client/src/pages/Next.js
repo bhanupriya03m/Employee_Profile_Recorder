@@ -30,7 +30,7 @@ function Next() {
         salary,
       };
 
-      fetch("https://employee-management-1.onrender.com/create", {
+      fetch("https://employee-management-ems.onrender.com/create", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
