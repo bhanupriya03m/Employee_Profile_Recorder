@@ -1,0 +1,149 @@
+/* General styling */
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('../public/sandalwood.jpg'); /* Replace 'your-image-path.jpg' with the path to your image */
+  background-size: cover; /* Cover the entire container with the background image */
+  background-position: center; /* Center the background image */
+}
+
+.form-box {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 40px; /* Equal spacing from all four sides */
+  padding-top: 20px; /* Increased padding from the top */
+}
+
+h2 {
+  text-align: center;
+  color: #333333;
+}
+
+.main-form {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 100%; /* Make input full width of parent container */
+  box-sizing: border-box; /* Ensure width includes padding and border */
+  padding: 8px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  max-width: 100%; /* Ensure input does not exceed 100% of parent container */
+}
+
+button {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: #693911;
+  color: #ffffff;
+  margin-top: 10px;
+  padding: 12px 20px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* next.js*/
+.body{
+  margin:0
+}
+.next-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('../public/sandalwood.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.next-container h2 {
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+.next-container form {
+  width: 100%;
+  max-width: 400px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.next-container form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.next-container form input[type="text"],
+.next-container form input[type="date"],
+.next-container form select,
+.next-container form button {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+}
+.next-container .gender-container {
+  display: flex;
+  align-items: center;
+}
+
+.next-container .gender-container label {
+  margin-right: 10px; /* Adjust margin as needed */
+}
+
+.next-container .gender-radio {
+  display: flex;
+}
+
+.next-container .gender-radio input[type="radio"] {
+  margin-right: 5px; /* Adjust margin as needed */
+}
+
+
+
+
+.next-container form button {
+  background-color: #693911;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  padding: 12px 20px;
+}
+
+.next-container form button:hover {
+  background-color: #45a049;
+}
+
+.error-message {
+  color: red;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
