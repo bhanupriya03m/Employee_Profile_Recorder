@@ -2,8 +2,8 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import "./App.css";
-import Main from "./Pages/Main";
-import Next from "./Pages/Next";
+import Main from "./pages/Main";
+import Next from "./pages/Next";
 
 
 
