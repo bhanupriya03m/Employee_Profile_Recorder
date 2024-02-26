@@ -43,7 +43,7 @@ app.post("/create", (req, res) => {
   );
 });
 
-const PORT = process.env.PORT || 3003;
+const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
   console.log(`Your server is running on port ${PORT}`);
 });

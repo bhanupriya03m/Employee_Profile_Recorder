@@ -2,8 +2,9 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import "./App.css";
-import Main from "./pages/Main"; // Adjusted import path
-import Next from "./pages/Next"; // Adjusted import path
+import Main from "./Pages/Main";
+import Next from "./Pages/Next";
+
 
 
 function App() {
