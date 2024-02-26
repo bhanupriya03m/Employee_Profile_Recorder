@@ -13,7 +13,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Main />} />
-          <Route path="/next" element={<Next />} /> {/* Adjusted path to "/next" */}
+          <Route path="/next" element={<Next />} /> 
         </Routes>
       </Router>
     </div>
